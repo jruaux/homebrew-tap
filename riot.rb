@@ -12,11 +12,11 @@ class Riot < Formula
       bin.install_symlink "#{libexec}/riot"
       mkdir prefix/"bash"
   
-      system "#{bin}/riot completion-script > #{prefix}/bash/completion.bash"
+      system "#{bin}/riot --completion-script > #{prefix}/bash/completion.bash"
       bash_completion.install "#{prefix}/bash/completion.bash" => "riot"
   
       system "echo 'autoload -U +X bashcompinit && bashcompinit' > #{prefix}/bash/completion.zsh"
-      system "#{bin}/riot completion-script >> #{prefix}/bash/completion.zsh"
+      system "#{bin}/riot --completion-script >> #{prefix}/bash/completion.zsh"
       zsh_completion.install "#{prefix}/bash/completion.zsh" => "_riot"
     end
   end
