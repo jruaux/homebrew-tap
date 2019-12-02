@@ -1,9 +1,9 @@
 class Riot < Formula
     desc "Redis Input/Output Tool"
     homepage "https://github.com/Redislabs-Solution-Architects/riot"
-    version "1.0.0"
+    version "1.1.0"
     url "https://github.com/Redislabs-Solution-Architects/riot/releases/download/#{version}/riot-#{version}.tgz"
-    sha256 "1866630a1dfb3de15ebfbdc6ce7379d172f5e6d02b92b1fbebd049b0c5b63bcb"
+    sha256 "c0ae6fcb0d00be1daeb8f2a8764d1ccb85558c44166018e1e413d9a7716ad952"
   
     depends_on :java
   
@@ -12,11 +12,10 @@ class Riot < Formula
       bin.install_symlink "#{libexec}/bin/riot"
       mkdir prefix/"bash"
   
-      system "#{bin}/riot --completion-script > #{prefix}/bash/completion.bash"
+      system "#{bin}/riot generate-completion > #{prefix}/bash/completion.bash"
       bash_completion.install "#{prefix}/bash/completion.bash" => "riot"
   
-      system "echo 'autoload -U +X bashcompinit && bashcompinit' > #{prefix}/bash/completion.zsh"
-      system "#{bin}/riot --completion-script >> #{prefix}/bash/completion.zsh"
+      system "#{bin}/riot generate-completion > #{prefix}/bash/completion.zsh"
       zsh_completion.install "#{prefix}/bash/completion.zsh" => "_riot"
     end
   end
