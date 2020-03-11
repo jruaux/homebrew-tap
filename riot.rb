@@ -10,7 +10,7 @@ class Riot < Formula
     def install
       libexec.install Dir["*"]
       bin.install_symlink "#{libexec}/bin/riot"
-      mkdir "bash"
+      mkdir prefix/"bash"
   
       system "#{bin}/riot generate-completion > #{prefix}/bash/completion.bash"
       bash_completion.install "#{prefix}/bash/completion.bash" => "riot"
