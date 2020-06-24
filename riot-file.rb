@@ -9,9 +9,9 @@ class Riot < Formula
   
     def install
       libexec.install Dir["*"]
-      bin.install_symlink "#{libexec}/bin/riot-${module}"
+      bin.install_symlink "#{libexec}/bin/riot-file"
       mkdir prefix/"bash"
   
-      zsh_completion.install "#{libexec}/zsh/_riot-${module}" => "_riot-${module}"
+      zsh_completion.install "#{libexec}/zsh/_riot-file" => "_riot-${MODULE}"
     end
   end
