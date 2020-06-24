@@ -1,4 +1,4 @@
-class Riot < Formula
+class RiotFile < Formula
     desc "Redis Input/Output Tool"
     homepage "https://github.com/Redislabs-Solution-Architects/riot"
     version "2.0.0"
