@@ -12,6 +12,6 @@ class Riot < Formula
       bin.install_symlink "#{libexec}/bin/riot-file"
       mkdir prefix/"bash"
   
-      zsh_completion.install "#{libexec}/zsh/_riot-file" => "_riot-${MODULE}"
+      zsh_completion.install "#{libexec}/zsh/_riot-file" => _riot-${MODULE}
     end
   end
