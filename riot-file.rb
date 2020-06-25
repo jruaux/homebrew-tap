@@ -10,8 +10,5 @@ class RiotFile < Formula
     def install
       libexec.install Dir["*"]
       bin.install_symlink "#{libexec}/bin/riot-file"
-      mkdir prefix/"zsh"
-      system "#{bin}/riot-file generate-completion > #{prefix}/zsh/_riot-file"
-      zsh_completion.install "#{prefix}/zsh/_riot-file" => "_riot-file"
     end
   end
