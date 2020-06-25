@@ -3,7 +3,7 @@ class RiotFile < Formula
     homepage "https://github.com/Redislabs-Solution-Architects/riot"
     version "2.0.0"
     url "https://github.com/Redislabs-Solution-Architects/riot/releases/download/v#{version}/riot-file-#{version}.tgz"
-    sha256 "5c68e6b6d4ce3c3262a48145fb04c976da45ca87c78f1015245b757668364ef4"
+    sha256 "b8db61ded2b7526908ac0f5ebd543c78d292efcdfeeaada3a3b664de9018fe8b"
   
     depends_on :java
   
