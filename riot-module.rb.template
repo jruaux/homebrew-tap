@@ -2,7 +2,7 @@ class Riot${CLASS} < Formula
     desc "Redis Input/Output Tool"
     homepage "https://github.com/Redislabs-Solution-Architects/riot"
     version "${VERSION}"
-    url "https://github.com/Redislabs-Solution-Architects/riot/releases/download/v#{version}/riot-${MODULE}-#{version}.tgz"
+    url "https://github.com/Redislabs-Solution-Architects/riot/releases/download/v#{version}/riot-${MODULE}-#{version}.zip"
     sha256 "${SHA256}"
   
     depends_on :java
