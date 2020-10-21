@@ -5,7 +5,7 @@ release() {
   MODULE=$2
   VERSION=$3
   echo "$MODULE $VERSION"
-  URL="https://github.com/Redislabs-Solution-Architects/riot/releases/download/v${VERSION}/riot-${MODULE}-${VERSION}.zip"
+  URL="https://github.com/redis-developer/riot/releases/download/v${VERSION}/riot-${MODULE}-${VERSION}.zip"
 
   echo "$URL"
   SHA256_STRING=$(wget -O - "$URL" | shasum -a 256)
