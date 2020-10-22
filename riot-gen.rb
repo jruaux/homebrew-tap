@@ -3,7 +3,7 @@ class RiotGen < Formula
     homepage "https://github.com/redis-developer/riot"
     version "2.2.5"
     url "https://github.com/redis-developer/riot/releases/download/v#{version}/riot-gen-#{version}.zip"
-    sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    sha256 "e52209ce04aabb93a746b3f6bd04a494317e1e8d47c449ca034cc0686c6896c9"
   
     depends_on :java
   

@@ -3,7 +3,7 @@ class RiotDb < Formula
     homepage "https://github.com/redis-developer/riot"
     version "2.2.5"
     url "https://github.com/redis-developer/riot/releases/download/v#{version}/riot-db-#{version}.zip"
-    sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    sha256 "8b771e8294b58ca86d98ec6342f1e6775f556ab29b753370d3077f62849620e9"
   
     depends_on :java
   
