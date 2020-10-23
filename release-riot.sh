@@ -21,5 +21,6 @@ release Db db $1
 release File file $1
 release Gen gen $1
 release Redis redis $1
+release Stream stream $1
 git commit -m "Released version $1"
 git push
