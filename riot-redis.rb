@@ -1,9 +1,9 @@
 class RiotRedis < Formula
     desc "Redis Input/Output Tool"
     homepage "https://github.com/redis-developer/riot"
-    version "2.3.2"
+    version "2.3.3"
     url "https://github.com/redis-developer/riot/releases/download/v#{version}/riot-redis-#{version}.zip"
-    sha256 "ce668c62d214ea1d61a0304ebc81f78b023aa1241a738a57e629302d0d804894"
+    sha256 "7c6064a7081653d7202e49789123a3e553aa297faada133c005f19f5727cf5ea"
   
     depends_on :java
   
