@@ -13,8 +13,8 @@ release() {
   SHA256="${SHA256_ARRAY[0]}"
   echo "$SHA256"
 
-  sed -e "s/\${CLASS}/$CLASS/g" -e "s/\${MODULE}/$MODULE/g" -e "s/\${VERSION}/$VERSION/g" -e "s/\${SHA256}/$SHA256/g" riot-module.rb.template > "riot-${MODULE}.rb"
-  git add "riot-${MODULE}.rb"
+  sed -e "s/\${CLASS}/$CLASS/g" -e "s/\${MODULE}/$MODULE/g" -e "s/\${VERSION}/$VERSION/g" -e "s/\${SHA256}/$SHA256/g" riot-module.rb.template > "Formula/riot-${MODULE}.rb"
+  git add "Formula/riot-${MODULE}.rb"
 }
 
 release Db db $1

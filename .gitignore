@@ -1,2 +1,13 @@
-/.project
+.settings/
+.sts4-cache/
+.classpath
+.factorypath
+.project
+.DS_Store
+.asciidoctor/
+bin/
+build/
+.gradle/
+*.log
+/.externalToolBuilders/
 .idea/
