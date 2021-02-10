@@ -1,9 +1,9 @@
 class RiotGen < Formula
     desc "Redis Input/Output Tool"
     homepage "https://github.com/redis-developer/riot"
-    version "2.5.0"
+    version "2.5.2"
     url "https://github.com/redis-developer/riot/releases/download/v#{version}/riot-gen-#{version}.zip"
-    sha256 "8a982ae1c4c55f4cfd8e9536e77582c5533564d684a2ce5110095687bc101406"
+    sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   
     depends_on "openjdk@8"
   
