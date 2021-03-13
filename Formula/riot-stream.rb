@@ -1,9 +1,9 @@
 class RiotStream < Formula
     desc "Redis Input/Output Tool"
     homepage "https://github.com/redis-developer/riot"
-    version "2.6.2"
+    version "2.6.3"
     url "https://github.com/redis-developer/riot/releases/download/v#{version}/riot-stream-#{version}.zip"
-    sha256 "736bb3de1c7598d42b2ee1a509c8325b1247a1da937d9a302dd8948cf530f4fc"
+    sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   
     depends_on "openjdk@8"
   
