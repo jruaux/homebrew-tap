@@ -3,7 +3,7 @@ class RiotFile < Formula
     homepage "https://github.com/redis-developer/riot"
     version "2.6.3"
     url "https://github.com/redis-developer/riot/releases/download/v#{version}/riot-file-#{version}.zip"
-    sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    sha256 "6ab5222aa7a920fef61be650a6885159c0a25ee08e0d348c8dcc5c14ba0c7f58"
   
     depends_on "openjdk@8"
   

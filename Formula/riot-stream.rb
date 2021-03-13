@@ -3,7 +3,7 @@ class RiotStream < Formula
     homepage "https://github.com/redis-developer/riot"
     version "2.6.3"
     url "https://github.com/redis-developer/riot/releases/download/v#{version}/riot-stream-#{version}.zip"
-    sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    sha256 "97b5801ac9c8b0235d00c3271a2626930d52d43c3c6c49431831d7c64738124b"
   
     depends_on "openjdk@8"
   
