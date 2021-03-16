@@ -3,7 +3,7 @@ class RiotDb < Formula
     homepage "https://github.com/redis-developer/riot"
     version "2.6.4"
     url "https://github.com/redis-developer/riot/releases/download/v#{version}/riot-db-#{version}.zip"
-    sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    sha256 "27e90b09a410904912bfd07b32050351e91031a68f256de8148f479b95b07274"
   
     depends_on "openjdk@8"
   
